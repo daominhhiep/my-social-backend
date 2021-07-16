@@ -1,0 +1,6 @@
+## BookStore Play JSON Controller
+GET     /posts           controllers.PostController.getPosts()
+POST    /post           controllers.PostController.addPost()
+GET     /post/:id        controllers.PostController.getPost(id: Int)
+PUT     /post/:id        controllers.PostController.updatePost(id: Int)
+DELETE  /post/:id        controllers.PostController.deletePost(id: Int)
